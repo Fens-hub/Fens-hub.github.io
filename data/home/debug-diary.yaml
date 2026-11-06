@@ -1,0 +1,30 @@
+id: debug-diary
+type: activity
+icon: code
+title: My Debug Diary
+activityLimit: 10
+lookbackDays: 0
+includePosts: false
+items:
+  - activityDate: 2026-11-03
+    type: thought
+    info:
+      text: "Everyone is now talking AI. I think it is time IoT had a seat at the table."
+  - activityDate: 2026-10-28
+    type: reading
+    info:
+      book: "The Big Book of Computing Pedagogy"
+      page: 22
+      text: "The PRIMM approach: Predict, Run, Investigate, Modify, Make."
+  - activityDate: 2026-10-19
+    type: quote
+    info:
+      label: "Quote of the week"
+      text: "Jason Hope and Cisco CEO Chuck Robbins emphasize that IoT is fundamentally about connecting people, data, and processes rather than just hardware."
+  - activityDate: 2026-10-11
+    type: challenge
+    info:
+      title: "Making sense of ESP32 GPIO pins"
+      took: "It took me almost a week to understand the different GPIO pins and where to use which"
+      text: "Most projects I came across use GPIO 27 and 13. Those pins are general-purpose and safe to use: they are not strapping pins that affect boot, not input-only like 34 to 39, and not tied to the onboard flash. Wiring a sensor or LED to them won’t get in the way of uploading code or starting the board."
+      lesson: "Check a pin’s limits before wiring anything. Some pins are input-only, some affect boot, and the ADC2 pins (which include 13 and 27) can’t read analog values while Wi-Fi is on."

@@ -1,0 +1,3 @@
+{{- $info := .info | default dict -}}
+{{ $info.text }}
+{{- with $info.url }} <a class="nerdy-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $info.label | default "link" }}</a>{{ end -}}

@@ -1,0 +1,5 @@
+{{- $i := .info | default dict -}}
+<span class="mr-2 rounded bg-accent-amber/15 px-1.5 py-0.5 font-mono text-[11px] text-accent-amber">Challenge &amp; lesson</span><strong class="font-semibold text-slate-900 dark:text-white">{{ $i.title }}</strong>
+{{ with $i.took }}<span class="mt-1 block font-mono text-xs nerdy-muted-soft">Time to figure it out: {{ . }}</span>{{ end }}
+{{ with $i.text }}<span class="mt-1 block">{{ . }}</span>{{ end }}
+{{ with $i.lesson }}<span class="mt-1 block"><span class="font-semibold text-accent-emerald">Lesson:</span> {{ . }}</span>{{ end }}

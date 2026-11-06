@@ -1,0 +1,11 @@
+name: uptime
+label: Uptime
+description: How long I’ve been running
+quick: true
+weight: 60
+up: "2+ years"
+users: "1 user"
+load: "curious, building, learning"
+notes:
+  - "last restart: whenever a new idea shows up"
+  - "known issues: none, only lessons"

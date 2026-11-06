@@ -1,0 +1,5 @@
+name: sensors
+label: Sensors
+description: Read a sample from the board
+quick: false
+weight: 30

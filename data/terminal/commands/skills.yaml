@@ -1,0 +1,16 @@
+name: skills
+label: Skills
+description: My technical stack
+quick: true
+weight: 20
+categories:
+  - key: embedded_iot
+    items: [C++, Arduino, ESP32]
+  - key: frontend
+    items: [JavaScript, React.js, HTML/CSS]
+  - key: backend
+    items: [Python, Django, Java, Node.js, REST APIs]
+  - key: database
+    items: [MySQL]
+  - key: devops_tools
+    items: [Git, AWS]

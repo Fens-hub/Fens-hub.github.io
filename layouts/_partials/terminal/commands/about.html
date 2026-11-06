@@ -1,0 +1,11 @@
+<pre class="font-mono whitespace-pre-wrap leading-relaxed"><span class="text-accent-purple">{{ .greeting }}</span>
+
+<span class="font-bold text-accent-emerald">{{ .heading }}</span>
+
+{{ range .paragraphs -}}
+{{ . }}
+
+{{ end -}}
+{{ with .quote -}}
+&gt; <span class="italic nerdy-muted-soft">"{{ .text }}"</span>
+{{- end }}</pre>

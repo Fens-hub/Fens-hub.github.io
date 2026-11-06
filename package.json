@@ -1,0 +1,18 @@
+{
+  "name": "fennyotieno",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "hugo --renderToMemory && hugo server --buildDrafts --watch",
+    "build": "hugo --renderToMemory && hugo --minify --gc --cleanDestinationDir"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "alpinejs": "^3.15.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

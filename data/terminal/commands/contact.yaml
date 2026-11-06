@@ -1,0 +1,15 @@
+name: contact
+label: Contact
+description: How to reach me
+quick: true
+weight: 50
+intro: Let’s build something connected together.
+email: otienofenny54@gmail.com
+links:
+  - label: GitHub
+    text: github.com/Fens-hub
+    url: https://github.com/Fens-hub
+  - label: LinkedIn
+    text: linkedin.com/in/fenny-otieno
+    url: https://www.linkedin.com/in/fenny-otieno-51a98a431/
+outro: Open to software and IoT roles, hybrid or remote.

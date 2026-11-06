@@ -1,0 +1,15 @@
+name: about
+label: About
+description: A little about me
+quick: true
+weight: 10
+greeting: "[boot] ESP32 ready."
+heading: "A little about me"
+paragraphs:
+  - "I am Fenny Otieno, a Software and IoT Engineer with a growing interest in connected technology, embedded systems, and educational technology."
+  - "My interest in technology goes beyond writing code. I’m fascinated by how different technologies come together to solve practical problems, improve everyday experiences, and create opportunities for people to learn, build, and innovate."
+  - "I enjoy exploring the intersection of software and hardware, experimenting with IoT concepts, developing digital solutions, and finding ways to make technical ideas easier to understand. I’m particularly interested in how accessible, hands-on technology education can inspire more people to become creators rather than just consumers of technology."
+  - "I’m also passionate about knowledge sharing and community-driven learning. I believe technology becomes more meaningful when we make it accessible, collaborate, exchange ideas, and create room for others to experiment."
+  - "Beyond the technical side, I’m naturally curious, creative, and always exploring something new. I enjoy documenting what I learn, turning ideas into experiments and growing through the process of building."
+quote:
+  text: If it blinks, ship it. Then read the serial log.

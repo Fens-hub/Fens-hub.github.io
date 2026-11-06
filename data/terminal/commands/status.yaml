@@ -1,0 +1,18 @@
+name: status
+label: Status
+description: Availability check
+quick: true
+weight: 40
+rows:
+  - label: availability
+    value: open to work
+  - label: roles
+    value: software, IoT
+  - label: mode
+    value: hybrid / remote
+  - label: focus
+    value: embedded systems
+  - label: also
+    value: EdTech enthusiast
+  - label: learning
+    value: always on

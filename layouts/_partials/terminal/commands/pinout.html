@@ -1,0 +1,13 @@
+{{- $cls := dict "emerald" "text-accent-emerald" "amber" "text-accent-amber" "cyan" "text-accent-cyan" "red" "text-red-400" -}}
+{{- $mine := slice -}}
+{{- range .mine }}{{ $mine = $mine | append .pin }}{{ end -}}
+<pre class="font-mono whitespace-pre-wrap leading-relaxed"><span class="font-bold text-accent-purple">{{ .title }}</span>
+{{ range .groups }}
+<span class="{{ index $cls .color }} font-bold">[{{ .label }}]</span> <span class="nerdy-muted">{{ .note }}</span>
+  {{ range .pins }}{{ if in $mine . }}<span class="font-bold text-accent-purple">{{ . }}★</span>{{ else }}{{ . }}{{ end }}  {{ end }}
+{{ end }}
+{{ with .mine }}<span class="font-bold text-accent-purple">★ pins I used in my Smart Room project</span>
+{{ range . }}  GPIO {{ .pin }} = {{ .use }}
+{{ end }}{{ end }}
+{{ range .tips }}<span class="nerdy-muted">tip: {{ . }}</span>
+{{ end }}</pre>

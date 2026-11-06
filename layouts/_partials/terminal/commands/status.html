@@ -1,0 +1,3 @@
+<pre class="font-mono whitespace-pre-wrap leading-relaxed"><span class="nerdy-muted">[sys] running self-check...</span>
+{{ range .rows }}<span class="text-accent-emerald">[ OK ]</span> <span class="text-accent-cyan">{{ printf "%-13s" .label }}</span> : {{ .value }}
+{{ end }}<span class="nerdy-muted">all systems nominal.</span></pre>

@@ -1,0 +1,7 @@
+id: featured-articles
+type: recent-posts
+icon: article
+title: Featured Articles
+limit: 3
+section: posts
+view_all_label: All articles ->
